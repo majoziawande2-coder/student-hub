@@ -1,0 +1,14 @@
+wwwroot\css\style.css
+wwwroot\html\about.html
+wwwroot\html\accommodation.html
+wwwroot\html\contact.html
+wwwroot\html\how-it-works.html
+wwwroot\html\index.html
+wwwroot\js\script.js
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\css\style.css
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\html\about.html
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\html\accommodation.html
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\html\contact.html
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\html\how-it-works.html
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\html\index.html
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\wwwroot\js\script.js

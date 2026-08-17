@@ -1,0 +1,37 @@
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\appsettings.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.staticwebassets.runtime.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.staticwebassets.endpoints.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.exe
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.deps.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.runtimeconfig.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.dll
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\bin\Debug\net10.0\Student Accomadation.pdb
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.AssemblyInfoInputs.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.AssemblyInfo.cs
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.csproj.CoreCompileInputs.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\scopedcss\bundle\Student Accomadation.styles.css
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\eoac0yo855-{0}-dgf6k5jt1n-dgf6k5jt1n.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\4fbwhcx5a7-{0}-y59m70p4l4-y59m70p4l4.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\mr6fpd07f3-{0}-rqf5leenub-rqf5leenub.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\ecmbhknwpm-{0}-s17ihiie09-s17ihiie09.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\lyet0sypa1-{0}-n5tyeyi7l0-n5tyeyi7l0.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\t0q844sm91-{0}-p4m12wuqfk-p4m12wuqfk.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\compressed\8i3tkbs3w2-{0}-5zz3eqpv06-5zz3eqpv06.gz
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.dll
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\refint\Student Accomadation.dll
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.pdb
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\Student Accomadation.genruntimeconfig.cache
+C:\Users\HIM\Downloads\Student Accomadation\Student Accomadation\obj\Debug\net10.0\ref\Student Accomadation.dll
