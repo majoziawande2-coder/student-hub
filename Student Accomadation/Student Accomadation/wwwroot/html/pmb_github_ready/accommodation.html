@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Find Accommodation | PMB Student Hub</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <header class="topbar">
+
+        <div class="container nav">
+
+            <a href="index.html"
+               class="brand">
+
+                <span class="brand-mark">
+                    🏠
+                </span>
+
+                PMB<span class="brand-accent">
+                    Student
+                </span>Hub
+
+            </a>
+
+
+            <nav>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="accommodation.html">
+                    Accommodation
+                </a>
+
+                <a href="how-it-works.html">
+                    How It Works
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                PIETERMARITZBURG
+            </span>
+
+            <h1>
+                Find student accommodation
+            </h1>
+
+            <p>
+                Compare rooms, prices and locations
+                to find the right place for you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="search-section accommodation-search">
+
+        <div class="container search-box">
+
+            <div class="search-title">
+
+                <span>
+                    🔎
+                </span>
+
+                <div>
+
+                    <strong>
+                        Search accommodation
+                    </strong>
+
+                    <small>
+                        Find your ideal student home
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <input id="searchInput"
+                   type="text"
+                   placeholder="Search area or property..."
+                   oninput="filterListings()">
+
+
+            <select id="roomFilter"
+                    onchange="filterListings()">
+
+                <option value="">
+                    Any room type
+                </option>
+
+                <option value="Single Room">
+                    Single Room
+                </option>
+
+                <option value="Shared Room">
+                    Shared Room
+                </option>
+
+                <option value="House">
+                    House
+                </option>
+
+            </select>
+
+
+            <select id="priceFilter"
+                    onchange="filterListings()">
+
+                <option value="">
+                    Any price
+                </option>
+
+                <option value="4000">
+                    Under R4,000
+                </option>
+
+                <option value="5000">
+                    Under R5,000
+                </option>
+
+                <option value="6500">
+                    Under R6,500
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <section class="listings-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        AVAILABLE OPTIONS
+                    </span>
+
+                    <h2>
+                        Student accommodation
+                    </h2>
+
+                    <p>
+                        Demo properties available in PMB.
+                    </p>
+
+                </div>
+
+
+                <div class="sort-wrap">
+
+                    <label>
+                        Sort:
+                    </label>
+
+                    <select id="sortSelect"
+                            onchange="sortListings()">
+
+                        <option value="recommended">
+                            Recommended
+                        </option>
+
+                        <option value="low">
+                            Price: Low to High
+                        </option>
+
+                        <option value="high">
+                            Price: High to Low
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div id="listingGrid"
+                 class="listing-grid">
+
+            </div>
+
+
+            <div id="noResults"
+                 class="no-results hidden">
+
+                <div>
+                    🏠
+                </div>
+
+                <h3>
+                    No accommodation found
+                </h3>
+
+                <p>
+                    Try another search or change your filters.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="clearFilters()">
+
+                    Clear Filters
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="copyright">
+
+            © 2026 PMB Student Hub
+
+        </div>
+
+    </footer>
+
+
+    <div id="modal"
+         class="modal hidden">
+
+        <div class="modal-backdrop"
+             onclick="closeModal()">
+        </div>
+
+        <div class="modal-card">
+
+            <button class="modal-close"
+                    onclick="closeModal()">
+
+                ×
+
+            </button>
+
+            <div id="modalContent">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | PMB Student Hub</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="topbar">
+
+        <div class="container nav">
+
+            <a href="index.html"
+               class="brand">
+
+                <span class="brand-mark">
+                    🏠
+                </span>
+
+                PMB<span class="brand-accent">
+                    Student
+                </span>Hub
+
+            </a>
+
+
+            <nav>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="accommodation.html">
+                    Accommodation
+                </a>
+
+                <a href="how-it-works.html">
+                    How It Works
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                GET IN TOUCH
+            </span>
+
+            <h1>
+                Contact PMB Student Hub
+            </h1>
+
+            <p>
+                Have a question or want to list accommodation?
+                Send us a message.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="about-section">
+
+        <div class="container contact-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div>
+
+                <span class="eyebrow">
+                    CONTACT INFORMATION
+                </span>
+
+                <h2>
+                    We'd love to hear from you.
+                </h2>
+
+                <p>
+
+                    This is a demonstration website.
+                    The contact information below is
+                    placeholder information.
+
+                </p>
+
+
+                <div class="contact-info">
+
+                    <div>
+
+                        <span>
+                            📧
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Email
+                            </strong>
+
+                            <p>
+                                info@pmbstudenthub.co.za
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            📞
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Phone
+                            </strong>
+
+                            <p>
+                                033 000 0000
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            📍
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Location
+                            </strong>
+
+                            <p>
+                                Pietermaritzburg, KwaZulu-Natal
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form">
+
+                <h3>
+                    Send us a message
+                </h3>
+
+
+                <form onsubmit="submitContact(event)">
+
+                    <label>
+                        Full Name
+                    </label>
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Enter your name"
+                           required>
+
+
+                    <label>
+                        Email Address
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="Enter your email"
+                           required>
+
+
+                    <label>
+                        I am a...
+                    </label>
+
+                    <select id="userType">
+
+                        <option>
+                            Student
+                        </option>
+
+                        <option>
+                            Parent
+                        </option>
+
+                        <option>
+                            Accommodation Provider
+                        </option>
+
+                        <option>
+                            Other
+                        </option>
+
+                    </select>
+
+
+                    <label>
+                        Message
+                    </label>
+
+                    <textarea id="message"
+                              rows="5"
+                              placeholder="Write your message..."
+                              required></textarea>
+
+
+                    <button type="submit"
+                            class="btn btn-primary">
+
+                        Send Message →
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="copyright">
+
+            © 2026 PMB Student Hub
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+function submitContact(event) {
+
+    event.preventDefault();
+
+    alert(
+        "Thank you! Your message has been received in this demo."
+    );
+
+    document.querySelector("form").reset();
+
+}
+
+    </script>
+
+
+</body>
+
+</html>
