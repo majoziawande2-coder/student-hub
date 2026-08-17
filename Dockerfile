@@ -2,15 +2,14 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 
 WORKDIR /src
 
-COPY ["Student Accomodation/Student Accomodation/Student Accomodation.csproj", "Student Accomodation/Student Accomodation/"]
-
-RUN dotnet restore "Student Accomodation/Student Accomodation/Student Accomodation.csproj"
-
 COPY . .
 
 WORKDIR "/src/Student Accomodation/Student Accomodation"
 
+RUN dotnet restore "Student Accomodation.csproj"
+
 RUN dotnet publish "Student Accomodation.csproj" -c Release -o /app/publish --no-restore
+
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 
